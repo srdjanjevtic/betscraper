@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nav-title-font-size: 3rem;
+    --nav-title-font-weight: bold;
+    --nav-link-font-weight: 300;
+    --gradX: 100%;
+    --gradY: 50%;
+    --c1: rgba(168, 239, 255, 1);
+    --c2: rgba(168, 239, 255, 0.1);
+}
+
+html {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+    color: rgb(72, 214, 243);
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(9, 4, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* /////////  HEADER ///////////////// */
+
+#header {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    position: relative;
+}
+
+.logo {
+    background-image: url("../android-chrome-192x192.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 2.5rem;
+    opacity: 0.33;
+    cursor: pointer;
+    transition: 0.25s all ease-in;
+}
+
+.logo:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+    outline: 2px dashed rgba(224, 232, 234, 0.5);
+    outline-offset: 5px;
+    box-shadow: 5px -3px 10px rgba(224, 232, 234, 0.5);
+}
+
+/* ////////////  FOOTER  //////////// */
+footer {
+    height: 5vh;
+    margin: 0.5rem 8rem;
+    align-self: self-end;
+}
+
+footer p {
+    justify-content: start;
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+footer p span {
+    font-size: 1rem;
+    font-weight: normal;
+}

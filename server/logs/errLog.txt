@@ -1,0 +1,26 @@
+20231108	11:23:32	kqGbNFgVNrF5g_h4h77eX	Error: Cannot find module '[object Object]'
+Require stack:
+- D:\24\BetScrapers\server\node_modules\express\lib\view.js
+- D:\24\BetScrapers\server\node_modules\express\lib\application.js
+- D:\24\BetScrapers\server\node_modules\express\lib\express.js
+20231108	11:26:47	qlyuidmPZKgxfAewOGA4n	Error: Cannot find module '[object Object]'
+Require stack:
+- D:\24\BetScrapers\server\node_modules\express\lib\view.js
+- D:\24\BetScrapers\server\node_modules\express\lib\application.js
+- D:\24\BetScrapers\server\node_modules\express\lib\express.js
+20231108	11:30:01	dFG6gQEbSUSxCrCIHB2Iz	Error: Cannot find module '[object Object]'
+Require stack:
+- D:\24\BetScrapers\server\node_modules\express\lib\view.js
+- D:\24\BetScrapers\server\node_modules\express\lib\application.js
+- D:\24\BetScrapers\server\node_modules\express\lib\express.js
+20231108	12:37:20	6d79f212-4db3-4f7b-a4b5-a762f4f89da6	Error: Failed to lookup view "index.ejs" in views directory "D:\24\BetScrapers\serverviews"
+20231108	12:38:10	164f1c61-326c-4bb8-a1b5-7b17c8496f48	Error: Failed to lookup view "index.ejs" in views directory "D:\24\BetScrapers\serverviews"
+20231108	12:40:13	db5f505c-c5c9-44df-a275-f8d0131663ce	Error: D:\24\BetScrapers\server\views\layouts\layout.ejs:13
+    11| 
+    12| <body>
+ >> 13|     <%- include('../Partials/header.ejs') %>
+    14|         <%- body %>
+    15|             <%- include('../Partials/footer.ejs') %>
+    16| </body>
+
+Could not find the include file "../Partials/header.ejs"

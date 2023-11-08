@@ -1,0 +1,15 @@
+{
+  "name": "betscrapers",
+  "version": "1.0.0",
+  "description": "scraping bet lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scrape",
+    "bet"
+  ],
+  "author": "jsdogs",
+  "license": "ISC"
+}
